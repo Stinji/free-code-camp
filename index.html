@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>This is a title inside the head element</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2">
+    <style>
+        h1 {
+            color: #FFCCCC;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#header">Header</a>
+        <a href="#main">Main</a>
+        <a href="#footer">Footer</a>
+        <a href="#">This is a dead link</a>
+    </nav>
+    <p style="color: red">Above you can see the nav element containing a set of navigation links.</p>
+    <header id="header">
+        <h1>This is an h1 (heading) element inside the header element</h1>
+        <p>This is a p (paragraph) element</p>
+        <p>The header tag represents a container for introductory content or a set of navigational links.</p>
+    </header>
+    <main id="main">
+        <div class="silver-background">
+            <h2 id="color-brown" class="color-pink background" style="color: green;">This is an h2 element inside the
+                main element</h2>
+            <p class="background">The main tag specifies the main content of a document.</p>
+            <p>itty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red
+                dot,
+                hairball run catnip eat the grass sniff.</p>
+            <h3>This is an h3 element</h3>
+            <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink
+                fluffy fur catnip scratched.</p>
+            <!-- 
+    <p>This is another p element</p> 
+    The above p element is inside a comment and will not have any effect on the code.
+    -->
+        </div>
+    </main>
+    <div>
+        <h4>This is an h4 element</h4>
+        <img class="smaller-image thick-green-border"
+            src="https://ichef.bbci.co.uk/news/410/cpsprodpb/37B5/production/_89716241_thinkstockphotos-523060154.jpg"
+            alt="A mix of dice.">
+        <p>The above image has been summoned via the img tag, using the src attribute to identify its source.</p>
+        <a href="https://en.wikipedia.org/wiki/Airplane!" target="_blank"><img class="airplane"
+                src="https://images.unsplash.com/photo-1508138221679-760a23a2285b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+                alt="Airplane crashed in a forest."></a>
+        <p>The above image also serves as a link since it has been nested inside an anchor element.</p>
+        <a href="https://www.google.com" target="_blank">Google.com</a>
+        <p>The above link has been summoned via the a (anchor) tag, using the href attribute to identify its source.</p>
+        <p>It's also possible to nest a <a href="https://www.google.com" target="_blank">link</a> inside a paragraph
+            element.</p>
+    </div>
+    <div>
+        <h5>This is an h5 element</h5>
+        <ul>
+            <li>This</li>
+            <li>is</li>
+            <li>an</li>
+            <li>unordered</li>
+            <li>list</li>
+        </ul>
+        <p>The ul (unordered list) tag creates a bullet point style list.</p>
+        <ol>
+            <li>This</li>
+            <li>is</li>
+            <li>an</li>
+            <li>ordered</li>
+            <li>list</li>
+        </ol>
+        <p>The ol (ordered list) tag creates a numbered list.</p>
+        <form id="reaction-app" action="submitted_results.txt">
+            <input type="text" placeholder="input" required>
+            <label for="fast_service">
+                <input id="fast_service" value="fast service" type="checkbox" name="agree" checked>Fast service
+            </label>
+            <label for="friendly_service">
+                <input id="friendly_service" value="friendly service" type="checkbox" name="agree">Friendly service
+            </label>
+            <label for="positive">
+                <input id="positive" value="positive" type="radio" name="positive-negative" checked>Positive
+            </label>
+            <label for="negative">
+                <input id="negative" value="negative" type="radio" name="positive-negative">Negative
+            </label>
+            <button type="submit">submit</button>
+        </form>
+    </div>
+    <div id="margin-yellow">
+        <h2>Margin</h2>
+        <h2 id="padding-red">Padding</h2>
+        <h2 id="padding-blue">Padding</h2>
+    </div>
+    <footer id="footer">
+        <h6>This is an h6 element inside the footer element</h6>
+        <p>The footer tag should contain information about its containing element (like: authorship, copyright, contact
+            information, etc..)</p>
+    </footer>
+</body>
+
+</html>

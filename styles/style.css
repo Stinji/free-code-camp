@@ -1,0 +1,98 @@
+:root {
+    --image-height: 200px;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+body {
+    font-family: "baloo chettan 2", sans-serif;
+}
+
+h2 {
+    color: rgb(255, 0, 0);
+    font-family: monospace;
+}
+
+#color-brown {
+    color: brown;
+}
+
+h2.color-pink {
+    color: #FF9999 !important;
+}
+
+.background {
+    background-color: pink;
+    /* font-family: sans-serif; */
+}
+
+p.background {
+    font-size: 2em;
+}
+
+.smaller-image {
+    width: 100px;
+}
+
+.airplane {
+    height: var(--image-height, 500px);
+}
+
+.thick-green-border {
+    border-width: 10px;
+    border-color: green;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.silver-background {
+    background-color: silver;
+    font-size: 20px;
+}
+
+#reaction-app {
+    background-color: green;
+}
+
+#margin-yellow {
+    color: #fff;
+    background-color: yellow;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    padding: 10px 100px 25px;
+    margin: 100px;
+}
+
+#padding-red {
+    color: white;
+    background-color: red;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#padding-blue {
+    color: white;
+    background-color: blue;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    padding: 20px;
+    margin-left: -100px;
+    margin-right: -100px;
+}
+
+[type="radio"] {
+    margin: 20px 0px 20px 0px;
+}
