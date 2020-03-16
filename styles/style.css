@@ -42,6 +42,11 @@ h2.color-pink {
 
 p.background {
     font-size: 2em;
+    font-weight: 800;
+}
+
+.line-height {
+    line-height: 100px;
 }
 
 .smaller-image {
@@ -88,13 +93,21 @@ p.background {
 
 #margin-yellow {
     color: #fff;
-    background-color: yellow;
+    background-color: rgb(145, 41, 172);
     border-width: 5px;
     border-style: solid;
     border-color: black;
     text-align: center;
     padding: 10px 100px 25px;
     margin: 100px;
+}
+
+#h2-yellow {
+    background-color: yellow;
+}
+
+#h2-yellow:hover {
+    background-color: rgba(255,255,0,0.3);
 }
 
 #padding-red {
@@ -107,6 +120,14 @@ p.background {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+#padding-red:hover {
+    background-color: rgba(255,0,0,0.3);
+}
+
+#padding-blue:hover {
+    background-color: rgba(0,0,255,0.3);
 }
 
 #padding-blue {
