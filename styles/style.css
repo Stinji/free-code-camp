@@ -9,12 +9,22 @@
 }
 
 body {
+    text-align: left;
     font-family: "baloo chettan 2", sans-serif;
 }
 
+#first-nav {
+    background-color: rgba(200, 200, 0, 0.5);
+    font-size: 27px;
+}
 h2 {
     color: rgb(255, 0, 0);
     font-family: monospace;
+    height: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
 }
 
 #color-brown {
@@ -42,11 +52,28 @@ p.background {
     height: var(--image-height, 500px);
 }
 
+#lowercase {
+    text-transform: lowercase;
+}
+
+#uppercase {
+    text-transform: uppercase;
+}
+
+#capitalize {
+    text-transform: capitalize;
+}
+
+#initial {
+    text-transform: initial;
+}
+
 .thick-green-border {
     border-width: 10px;
     border-color: green;
     border-style: solid;
     border-radius: 50%;
+    opacity: 0.3;
 }
 
 .silver-background {
@@ -56,6 +83,7 @@ p.background {
 
 #reaction-app {
     background-color: green;
+    box-shadow: 50px -100px 250px 500px #AAFFAA;
 }
 
 #margin-yellow {
