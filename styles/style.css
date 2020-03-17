@@ -11,8 +11,18 @@
 body {
     text-align: left;
     font-family: "baloo chettan 2", sans-serif;
-    background: url(https://ftopx.com/pic/1920x1080/201401/87476.jpg);
-    background-repeat: no-repeat;
+    background: url(https://background-tiles.com/overview/white/patterns/large/1018.png);
+    background-repeat: repeat;
+}
+
+.video-example {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+.audio-example {
+    position: relative;
 }
 
 #first-nav {
