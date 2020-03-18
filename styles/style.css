@@ -2,17 +2,19 @@
     --image-height: 200px;
 }
 
-@media (max-width: 600px) {
-    body {
-        background-color: lightblue;
-    }
-}
+
 
 body {
     text-align: left;
     font-family: "baloo chettan 2", sans-serif;
     background: url(https://background-tiles.com/overview/white/patterns/large/1018.png);
     background-repeat: repeat;
+}
+
+@media (max-width: 600px) {
+    body {
+        background: lightblue;
+    }
 }
 
 .video-example {
@@ -40,6 +42,44 @@ h2 {
 
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
+}
+
+.container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: lightgray;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-areas: "header header header" "article content content" "footer footer footer";
+}
+
+.item1 {
+    background: lightskyblue;
+}
+
+.item2 {
+    background: lightsalmon;
+}
+
+.item3 {
+    background: paleturquoise;
+    justify-self: center;
+    align-self: end;
+}
+
+.item4 {
+    background: lightpink;
+    grid-row: 2/4;
+}
+
+.item5 {
+    background: palegreen;
+    grid-area: 3/1/4/4;
 }
 
 #color-brown {
